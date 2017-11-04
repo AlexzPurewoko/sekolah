@@ -1,0 +1,320 @@
+body {
+  background-image: linear-gradient(to top, rgba(46, 49, 65, 0.7), rgba(46, 49, 65, 0.7)), url("img/sekolah.jpg");
+  background-color: #2e3141;
+  background-size: auto, cover;
+  background-attachment: fixed, fixed;
+  background-position: center, center;
+}
+
+hr {
+  border-color: rgba(0, 90, 167, 1);
+  max-width: 200px;
+}
+
+/*kompetensi keahlihan*/
+#jurusan {
+  background-color: white;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.posts {
+  overflow: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: white;
+}
+
+.posts article {
+  width: 50%;
+  float: left;
+  padding: 15px 15px;
+}
+
+.posts .pic {
+  float: left;
+  margin-right: 30px;
+  margin-top: 6px;
+}
+
+.posts .info {
+  overflow: hidden;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.posts .info h3 {
+  overflow: hidden;
+  color: #008bc3;
+  font-family: 'Rajdhani';
+  font-size: 25px;
+  line-height: 35px;
+  padding-bottom: 10px;
+}
+
+.icon {
+  padding-top: 30px;
+}
+
+
+/**/
+
+#visi {
+  background-color: white;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: black;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 17px;
+}
+
+
+/*header*/
+
+.angle {
+  color: white;
+  padding-bottom: 70px;
+  padding-left: 675px;
+}
+
+.brand {
+  padding-left: 250px;
+  overflow: auto;
+  padding-top: 80px;
+  padding-bottom: 150px;
+}
+
+.brand article {
+  float: left;
+  padding: 15px 15px;
+  color: white;
+}
+
+
+.brand .pic {
+  float: left;
+  margin-right: 30px;
+  margin-top: 6px;
+}
+
+.brand .info {
+  overflow: hidden;
+  padding-right: 150px;
+  width: 60%;
+  font-family: 'Rajdhani';
+  font-size: 18px;
+  text-align: justify;
+}
+
+.brand .info h3 {
+  overflow: hidden;
+  color: white;
+  font-family: 'Rajdhani';
+  font-size: 45px;
+  font-weight: normal;
+  line-height: 50px;
+}
+
+.brand .garis {
+  max-width: 150px;
+  border-color: white;
+  padding-right: 200px;
+  margin-right: 250px;
+}
+
+
+/*-----------------------*/
+
+.navbar-main {
+  background-color: white;
+  box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.1);
+  color: black;
+}
+
+.smk-navbar {
+  color: black;
+}
+
+.navbar-header .pic {
+  padding: 10px;
+}
+
+.section-heading {
+  margin-bottom: 10px;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+/*footer*/
+
+.footer-distributed {
+  background-color: #292c2f;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+  padding: 50px 50px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+
+/* The company logo */
+
+.footer-distributed h3 {
+  color: #ffffff;
+  font-family: 'Rajdhani', sans-serif;
+  padding-left: 10px;
+  overflow: hidden;
+  font-size: 25px;
+}
+
+.footer-distributed h3 span {
+  color: #5383d3;
+}
+
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+  color: #ffffff;
+  margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+  color: #8f9296;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: normal;
+  margin: 0;
+  padding-left: 10px;
+}
+
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+  width: 35%;
+}
+
+.footer-distributed .footer-center i {
+  background-color: #33383b;
+  color: #ffffff;
+  font-size: 25px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  margin: 10px 15px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+  font-size: 17px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+  display: inline-block;
+  color: #ffffff;
+  vertical-align: middle;
+  margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+  display: block;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+  color: #5383d3;
+  text-decoration: none;
+  ;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about {
+  line-height: 20px;
+  color: #92999f;
+  font-size: 13px;
+  font-weight: normal;
+  text-align: justify;
+}
+
+.footer-distributed .footer-company-about span {
+  display: block;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+  .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+.pic {
+  padding-top: 20px;
+  float: left;
+}
